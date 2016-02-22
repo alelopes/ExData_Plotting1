@@ -38,6 +38,8 @@ web site</a>:
 
 put the dataset inside the folder where you have the plot1.R, plot2.R, ... files. After this, you can run it.
 
+## Plots
+
 ### Plot 1
 
 
