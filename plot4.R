@@ -56,7 +56,7 @@ with(betweenDates,plot(fullDate,Voltage,type = 'l' ,ylab = "Voltage"))
 
 plot_colors <- c("black","red","blue")
 
-plot(betweenDates$fullDate,betweenDates$Sub_metering_1,col=plot_colors[1],type = 'l')
+plot(betweenDates$fullDate,betweenDates$Sub_metering_1,col=plot_colors[1],type = 'l', xlab = "", ylab = "Energy Sub Metering")
 
 legend("topright",c("Sub_metering_1   ","Sub_metering_2   ","Sub_metering_3   "), lty = 1, col = plot_colors,cex = 0.8)
 
