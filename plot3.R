@@ -6,7 +6,6 @@ if (!"lubridate" %in% rownames(installed.packages())){
 
 library(lubridate)
 
-
 fullData<-read.table(file='household_power_consumption.txt',sep = ';',stringsAsFactors = FALSE,header = TRUE)
 
 getOneDateFormat<-function(fullData){
