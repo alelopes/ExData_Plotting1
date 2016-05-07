@@ -23,6 +23,7 @@ fullData$Global_active_power<-as.numeric(fullData$Global_active_power)
 
 fullData$Global_reactive_power<-as.numeric(fullData$Global_reactive_power)
 
+
 fullData$Voltage<-as.numeric(fullData$Voltage)
 
 fullData$Global_intensity<-as.numeric(fullData$Global_intensity)
