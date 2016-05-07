@@ -15,7 +15,6 @@ getOneDateFormat<-function(fullData){
   return(arrive)
   
 }
-
 fullData$fullDate<-getOneDateFormat(fullData)
 
 fullData$Global_active_power<-as.numeric(fullData$Global_active_power)
